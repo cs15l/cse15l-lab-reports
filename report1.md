@@ -61,9 +61,9 @@
 
 Now that you are remotely connected to a computer over the internet for this course you can use some commands to start looking around
 
-- **cd** is a basic command that means "change directory" and it can take you to any directory you choose
+- **cd \<directory\>** is a basic command that means "change directory" and it can take you to any directory you choose
 - **cd \~** specifically will take you to the home directory
-- **ls** lets you look around in your current directory
+- **ls \<directory\>** lets you look around in the directory you used or the current directory without an argument
 - **ls -lat** will let you look at all the files in your directory sorted by date
 - **ls -a** will let you look at all the files in your directory including hidden files
 - **ls \<directory\>** will let you look at the files in whatever directory you insert between the \<\>
