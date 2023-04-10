@@ -15,5 +15,6 @@
 ## Remotely Connecting
 
 1. Open up VS Code
-2. To open the VS Code terminal, press Ctrl+\` (Windows) or Ctrl+shift+\`
-3. 
+2. To open the VS Code terminal, press Ctrl+\` (Windows) or Ctrl+shift+\` (Mac)
+3. Once you open it, it should look something like this:
+
