@@ -58,3 +58,16 @@
 8. Congratulations, you just remotely connected :)
 
 ## Trying Some Commands
+
+Now that you are remotely connected to a computer over the internet for this course you can use some commands to start looking around
+
+- **cd** is a basic command that means "change directory" and it can take you to any directory you choose
+- **cd ~** specifically will take you to the home directory
+- **ls** lets you look around in your current directory
+- **ls -lat** will let you look at all the files in your directory sorted by date
+- **ls -a** will let you look at all the files in your directory including hidden files
+- **ls \<directory\>** will let you look at the files in whatever directory you insert between the \<\>
+- **cp \<source\> \<destination\>** will let you copy the files from whatever source to whatever destination
+- **cat \<file\> \<file\> ...** will show you whatever text is stored in that file or files
+
+## Thanks for using my tutorial :D
