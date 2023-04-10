@@ -30,5 +30,19 @@
   - Click on the link labeled in this picture:
   ![Image](vscode4.jpg)
   - Create a new password that you will remember.
+5. Now head back to the VS Code terminal
+6. Using your course-specific username, type in this command:
+
+**ssh cs15lsp23zz@ieng6.ucsd.edu**
+
+  If this is your first time connecting remotely, this piece of text will pop up:
+  **The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+  RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+  Are you sure you want to continue connecting (yes/no/[fingerprint])?**
+  
+  Type "yes" without the quotations
+7. Now you should have some text on your screen that looks like this:
+![Image](vscode5.jpg)
+8. Congratulations, you just remotely connected :)
 
 
