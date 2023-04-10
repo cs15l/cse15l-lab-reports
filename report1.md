@@ -10,3 +10,10 @@
 2. Select a downloading option based on your OS
 3. Once it's downloaded open it up and it should look something like this:
 ![Image](vscode.jpg)
+4. Good job friend :)
+
+## Remotely Connecting
+
+1. Open up VS Code
+2. To open the VS Code terminal, press Ctrl+\` (Windows) or Ctrl+shift+\`
+3. 
