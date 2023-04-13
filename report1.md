@@ -2,7 +2,7 @@
 
 - Downloading Visual Studio Code
 - Remotely Connecting
-- Trying some commands
+- Trying some commands 
 
 ## Downloading Visual Studio Code
 
