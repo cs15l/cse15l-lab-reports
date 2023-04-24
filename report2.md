@@ -23,7 +23,57 @@ getQuery is similar to getPath and does not require any arguments but relies on 
 
 ## Part 2
 
+Failure-inducing input:
+
 ```
-Hey
+
+  @Test
+  public void testReversed() {
+    int[] input1 = {1,2,3};
+    assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
+  }
+
 ```
+
+Input that doesn't induce failure:
+
+```
+  @Test
+  public void testReversed() {
+    int[] input1 = {0};
+    assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
+  }
+```
+
+![Image](lr24.jpg)
+
+![Image](lr25.jpg)
+
+Before code:
+
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+After code:
+```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
+## Part 3
+
+I didn't know I could code a website using Java like that. I've made html websites with css and JavaScript but using Java with its object-oriented stuff is cool. 
+
 
