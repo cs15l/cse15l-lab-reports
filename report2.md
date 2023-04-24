@@ -23,7 +23,7 @@ getQuery is similar to getPath and does not require any arguments but relies on 
 
 ## Part 2
 
-Failure-inducing input:
+### Failure-inducing input:
 
 ```
 
@@ -35,7 +35,7 @@ Failure-inducing input:
 
 ```
 
-Input that doesn't induce failure:
+### Input that doesn't induce failure:
 
 ```
   @Test
@@ -44,12 +44,15 @@ Input that doesn't induce failure:
     assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
   }
 ```
+### Output with failure-inducing
 
 ![Image](lr24.jpg)
 
+### Output with input that does not induce failure
+
 ![Image](lr25.jpg)
 
-Before code:
+### Before code:
 
 ```
 static int[] reversed(int[] arr) {
@@ -61,7 +64,7 @@ static int[] reversed(int[] arr) {
   }
 ```
 
-After code:
+### After code:
 ```
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
