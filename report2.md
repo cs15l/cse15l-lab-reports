@@ -74,6 +74,14 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
+Bugs:
+
+The code's main bug was misplacement of the 2 arrays. Basically, newArray was set to an array of 0s the length of arr and the for loop set the contents of arr to the reverse of newArray (which are still a bunch of 0s), and then finally printed arr. No matter what you tested, the output would always be an array with the same length as arr but full of 0s. So if the argument for arr was an array of 0s, technically the output would be correct because 0s reversed is 0s. This is why the test case {0} worked. This is also why the test case {1,2,3} did not work. It was supposed to output {3,2,1} but it outputs {0,0,0}.
+
+How I fixed the bugs:
+
+To fix the code, I understood that the reason newArray was initialized was to contain the contents of the reversed array so instead of arr changing its contents, I changed the contents of newArray. Also, the numbers that needed to be reversed were from arr not newArray, so I changed newArray[arr.length - i - 1] to arr[arr.length - i - 1]. Then lastly, I returned newArray because returning arr would just return the input.
+
 
 ## Part 3
 
