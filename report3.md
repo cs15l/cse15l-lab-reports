@@ -2,6 +2,7 @@
 
 ## 1. -maxdepth - https://man7.org/linux/man-pages/man1/find.1.html
 
+### Ex 1 and 2
 ![Image](lr312.jpg)
 
 In the first use of maxdepth, from docsearch, the command searches at most 2 levels deep for -name technical. Levels are synonomous with directories so the command is traversing through 2 directories max trying to find -name technical. It prints the path to what was found. 
@@ -12,7 +13,10 @@ In the second use of maxdepth, from docsearch, the command still looks at most 2
 
 ## 2. -size - https://pimylifeup.com/find-command/#findbysize
 
+### Ex 1
 ![Image](lr322.jpg)
+
+### Ex 2
 ![Image](lr332.jpg)
 
 In the first use of size, from technical, the command searches for any file with size 10 kilobytes within the plos directory. It displays all the files with size 10 kilobytes.
@@ -23,7 +27,10 @@ In the second use of size, from technical, the command searches for any file wit
 
 ## 3. -type - https://www.computerhope.com/unix/ufind.htm
 
+### Ex 1
 ![Image](lr342.jpg)
+
+### Ex 2
 ![Image](lr352.jpg)
 
 In the first use of type, the command searches for anything of type d which means directory. The command prints all directories found from technical.
@@ -34,7 +41,10 @@ In the second use of type, I did find -type f. The command searches for anything
 
 ## 4. -mindepth - https://man7.org/linux/man-pages/man1/find.1.html
 
+### Ex 1
 ![Image](lr352.jpg)
+
+### Ex 2
 ![Image](lr362.jpg)
 
 In the first use of mindepth, I used find -mindepth 1 -name "\*.txt". This command basically skipped past the technical directory (1st level) which had plos, biomed, etc. and looked within each of those directories to find every file that ended in ".txt". 
