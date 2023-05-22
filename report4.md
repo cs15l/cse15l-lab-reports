@@ -14,7 +14,7 @@ I then ran the code sh tests.sh to run the tests to show they fail
 
 ![Image](lr44.jpg)
 
-To edit the code I typed vim ListExamples.java. \<q\> until at the line needed to be fixed. \<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<x\>\<i\>. The \<l\> presses allowed me to navigate to the right to put the cursor on the 1 character. The press of \<x\> allowed me to delete the 1 character and then I typed 2 to insert after pressing \<i\> which allowed me to insert 2 where it is supposed to be. \<esc\>. Then I typed :wq to exit and save my changes.
+To edit the code I typed vim ListExamples.java. \<q\> until at the line needed to be fixed. \<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<l\>\<x\>\<i\>. The \<l\> presses allowed me to navigate to the right to put the cursor on the 1 character. The press of \<x\> allowed me to delete the 1 character and then I typed 2 to insert after pressing \<i\> which allowed me to insert 2 where it is supposed to be. I then pressed \<esc\> to exit the insert mode. Then I typed :wq to exit and save my changes.
 
 ![Image](lr45.jpg)
 
