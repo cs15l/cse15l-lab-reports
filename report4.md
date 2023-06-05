@@ -14,7 +14,7 @@ I pressed \<up\> once to login to ieng6 because I already had used it just befor
 
 ## Step 5: Clone your fork of the repository from your Github account
 
-![Image](lr42.jpg)
+![Image](lr4clone.jpg)
 
 I went into GitHub to fork the repository then I copied the html link and cloned it in the command line
 
@@ -51,8 +51,8 @@ I then ran sh tests.sh once more to confirm the tests passed pressing \<up\> onc
 
 ## Step 9: Commit and push the resulting change to your Github account
 
-![Image](lr46.jpg)
-![Image](lr47.jpg)
+![Image](lr4push.jpg)
+![Image](lr4commit.jpg)
 
 Then I checked git status to see which files I needed to add, git add the files on to the staging area, git commit -am "lab 7 commit", and then git push which I then was prompted to log into GitHub.
   
