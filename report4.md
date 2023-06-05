@@ -55,6 +55,7 @@ I then ran sh tests.sh once more to confirm the tests passed pressing \<up\> onc
 ![Image](lr4push.jpg)
 
 I used the command git add . to add all the files that were untracked,tracked, and changed on to the staging area, git commit -am "commit 1", and then git push which ran successfully.
+
   
 
   
