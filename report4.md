@@ -44,6 +44,7 @@ To edit the code I typed vim ListExamples.java. \<q\> until at the line needed t
 
 ```
 <up>
+<enter>
 ```
 
 I then ran sh tests.sh once more to confirm the tests passed pressing \<up\> once back in history
