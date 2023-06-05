@@ -16,7 +16,7 @@ I pressed \<up\> once to login to ieng6 because I already had used it just befor
 
 ![Image](lr4clone.jpg)
 
-I went into GitHub to fork the repository then I copied the html link and cloned it in the command line
+I went into GitHub to fork the repository then I copied the SSH link and cloned it in the command line
 
 ## Step 6: Run the tests, demonstrating that they fail
 
@@ -54,7 +54,7 @@ I then ran sh tests.sh once more to confirm the tests passed pressing \<up\> onc
 ![Image](lr4push.jpg)
 ![Image](lr4commit.jpg)
 
-Then I checked git status to see which files I needed to add, git add the files on to the staging area, git commit -am "lab 7 commit", and then git push which I then was prompted to log into GitHub.
+I used the command git add . to add all the files that were untracked,tracked, and changed on to the staging area, git commit -am "commit 1", and then git push which ran successfully.
   
 
   
