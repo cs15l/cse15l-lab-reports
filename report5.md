@@ -26,9 +26,9 @@ It was changing 1 - 11 - 21 - 31
 When it should have been 1 - 10 - 100 - 1000
 This is why when I put the input 64 I got 21 instead of 100.
 
-# File and Directory
+# File and Directory Structure
 ```
-report 5
+report5
   - test.sh
   - DecimalToOctalConverter.java
   - DecimalToOctalConverter.class
