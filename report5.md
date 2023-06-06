@@ -77,7 +77,7 @@ sh test.sh
 
 # Description of what to edit to fix the bug
 
-I represents the placement of each octal digit which should be (1,10,100,1000) but it was going (1,11,21,31) which hardly makes any sense.
+The variable i represents the placement of each octal digit which should be (1,10,100,1000) but it was going (1,11,21,31) which hardly makes any sense.
 Change how much i scales by. Instead of adding 10 to i, multiply 10 to i. This is in the while loop in the convertToOctal method.
 
 # Part 2: Reflection
